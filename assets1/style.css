@@ -1,0 +1,137 @@
+html,
+.main-content {
+  background:#FFE7C6;
+}
+
+.form-validation{
+    background: #fff;
+    box-sizing: border-box;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 55px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    font: bold 14px sans-serif;
+    text-align: center;
+}
+
+.errors p,
+.success p {
+  padding: 15px;
+}
+
+.form-row{
+    position: relative;
+    text-align: left;
+    margin-bottom: 23px;
+}
+
+.form-title-row{
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.form-validation h1{
+    display: inline-block;
+    box-sizing: border-box;
+    color:  #4c565e;
+    font-size: 24px;
+    padding: 15px 8px;
+    border-bottom: 2px solid #FFE7C6;
+    margin:0;
+}
+
+.form-validation .form-row > label span{
+    display: inline-block;
+    box-sizing: border-box;
+    color:  #5f5f5f;
+    width: 180px;
+    text-align: right;
+    padding: 8px 25px;
+}
+
+.form-validation input
+ {
+    position: relative;
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 240px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 18px;
+    border: 1px solid #dbdbdb;
+      border-radius: 2px;
+}
+
+
+/* Styles for Valid input data */
+
+.form-validation .form-valid-data-sign{
+    position: absolute;
+    color: #ffffff;
+    line-height: 24px;
+    text-align: center;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color:  #a2cf78;
+    left: 440px;
+    top: 10px;
+    display: none;
+}
+
+/* Styles for Invalid input data */
+
+.form-validation .form-invalid-data{
+    margin-bottom: 55px;
+}
+
+
+
+
+
+
+.form-invalid-data .form-invalid-data-sign,
+.form-invalid-data .form-invalid-data-info{
+    display: block;
+}
+
+.form-valid-data .form-valid-data-sign{
+    display: block;
+}
+
+
+
+
+.form-validation button{
+    display: block;
+    border-radius: 2px;
+    background-color:  #6caee0;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 22px;
+    border: 0;
+    margin: 40px 183px 0;
+}
+
+
+/* Placeholder color */
+
+.form-validation ::-webkit-input-placeholder {
+    color:  #999;
+}
+
+.form-validation ::-moz-placeholder {
+    color:  #999;
+    opacity: 1;
+}
+
+.form-validation :-ms-input-placeholder {
+    color:  #999;
+    opacity: 1;
+}
+
+/* First input row */
+.form-validation .form-input-name-row {
+  margin-top: 35px;
+}
+
